@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Heart Disease Predictor</title>
+</head>
+<body>
+    <h2>Heart Disease Prediction</h2>
+    <form action="/predict" method="post">
+        Age: <input type="number" name="age" required><br><br>
+        Sex: <input type="number" name="sex" required><br><br>
+        CP: <input type="number" name="cp" required><br><br>
+        <input type="submit" value="Predict">
+    </form>
+    <br>
+    <h3>{{ prediction_text }}</h3>
+</body>
+</html>
