@@ -1,12 +1,21 @@
-# Heart Disease prediction Flask App
-This is a Flask web  app that predicts heart disease risk based on user input.
+# ❤️ Heart Disease Prediction Flask Application
 
-##Files
-'app.py' _ Main Flask application
-'heart_model.pkl' _ Trained Ml model
-'index.html' _ web page template
+An end-to-end web application built to predict the likelihood of heart disease based on patient clinical parameters, powered by a serialized machine learning classifier and a Flask backend.
 
-## How to Run
-Install requirements: 'pip install flask scikit_learn'
-Run : 'python app.py'
-open: 'http://127.0.0.1:5000'
+## 🚀 Overview
+Early detection of cardiovascular disease is critical. This project takes clinical input features, processes them through a trained Scikit-Learn model, and serves real-time risk predictions through an interactive web interface.
+
+## 🛠️ Tech Stack
+* *Language:* Python 3.10+
+* *Backend:* Flask
+* *Machine Learning:* Scikit-Learn, Pandas, NumPy
+* *Frontend:* HTML / CSS
+
+## 📂 Project Structure
+```text
+heart-disease-flask/
+│
+├── app.py              # Main Flask application and routing
+├── heart_model.pkl     # Trained machine learning model file
+├── requirements.txt    # Project dependencies
+└── templates/          # HTML templates for the user interface
